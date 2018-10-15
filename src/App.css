@@ -1,0 +1,32 @@
+img {
+  width: 300px;
+}
+
+.randomWord {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 15px;
+}
+.letterButtons {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-between;
+}
+.letterButtons li {
+  margin-right: 10px;
+}
+img {
+  display: flex;
+  justify-items: center;
+}
+
+button {
+  font-weight: bold;
+  color: black;
+  background-color: aqua;
+  border-radius: 5px;
+  width: 35px;
+  height: 35px;
+}
